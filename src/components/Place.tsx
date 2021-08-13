@@ -1,6 +1,7 @@
 import "./Place.css";
 
 interface PlaceProps {
+  key: string;
   title: string;
   location: { town: string; city: string; link: string };
   body: string;
