@@ -1,0 +1,15 @@
+.header {
+  border: medium dotted blue;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading-container {
+  border: medium dotted blue;
+  width: 51.5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: dimgrey;
+}
