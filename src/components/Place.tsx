@@ -12,7 +12,7 @@ function Place(props: PlaceProps): JSX.Element {
       <h2>{props.title}</h2>
       <h3>
         {props.location.town}, {props.location.city} (
-        <a href={props.location.link} target="_blank">
+        <a href={props.location.link} target="_blank" rel="noreferrer">
           map link
         </a>
         )
