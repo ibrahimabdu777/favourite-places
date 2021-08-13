@@ -1,4 +1,4 @@
-import './Place.css';
+import "./Place.css";
 
 interface PlaceProps {
   title: string;
@@ -12,24 +12,23 @@ function Place(props: PlaceProps): JSX.Element {
   return (
     <section className="container">
       {/* <div className="container"> */}
-        <img src={props.img} alt=""  className="picture"/>
+      <img src={props.img} alt="" className="picture" />
       {/* </div> */}
       {/* <div className="container"> */}
-         <h2>{props.title}</h2>
+      <h2>{props.title}</h2>
       {/* </div> */}
       {/* <div className="container"> */}
-        <h3>
+      <h3>
         {props.location.town}, {props.location.city} (
         <a href={props.location.link} target="_blank" rel="noreferrer">
           map link
         </a>
         )
-        </h3>
+      </h3>
       {/* </div> */}
       {/* <div className="container"> */}
-        <p>{props.body}</p>
+      <p>{props.body}</p>
       {/* </div> */}
-      
     </section>
   );
 }

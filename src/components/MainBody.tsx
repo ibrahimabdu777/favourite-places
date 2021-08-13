@@ -1,6 +1,6 @@
 import Place from "./Place";
 import Wisely from "./images/Wisely.jpg";
-import "./MainBody.css"
+import "./MainBody.css";
 function MainBody(): JSX.Element {
   return (
     <main className="places-container">
